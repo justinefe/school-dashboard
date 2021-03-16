@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseurl = "http://localhost:2019";
+const baseurl = "https://skul-backend.herokuapp.com";
 //   process.env.NODE_ENV === "production"
 //     ? "http://localhost:2019"
 //     : "https://stagging-paxinfy.herokuapp.com";
