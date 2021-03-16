@@ -1,0 +1,29 @@
+.select {
+  font-size: 16px;
+  transition: border-color 300ms;
+  font-weight: medium;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.54);
+  position: relative;
+  margin: 5px;
+}
+.select_result_each {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.select_result {
+  background-color: #fff;
+  position: absolute;
+  display: none;
+  z-index: 8;
+  border: 1px solid #ced4da;
+}
+.select_input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  flex: 1;
+  background-color: #fff;
+  border-radius: 4px;
+}
